@@ -24,8 +24,8 @@ public class PlayerController : MonoBehaviour
 
     //jump function
     public int jumpValue;
-    public int jumpCount;
-    public float jumpTime;
+    public int jumpCount;//实现多段跳 剩余跳跃次数
+    public float jumpTime;//跳多久
     private float jumpTimeCounter;
     private bool isJumping;
     private bool isFalling;
