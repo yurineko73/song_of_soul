@@ -3,8 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Enemy
+  tags: []
   layers:
   - Default
   - TransparentFX
@@ -12,20 +11,24 @@ TagManager:
   - 
   - Water
   - UI
+  - Ground
+  - Rope
+  - Attackable
   - 
   - 
-  - Level
-  - Enemy
-  - Usable
-  - Interactable
-  - IgnorePlayer
+  - 
+  - 
+  - 
   - Player
-  - Cameras
-  - LitSprites
-  - Destructable
-  - EnemyWeapon
-  - BossWeakPoint
-  - Bullet
+  - Enemy
+  - 
+  - 
+  - 
+  - 
+  - PlayerDamager
+  - PlayerBulletDamager
+  - MidDamager
+  - EnemyDamager
   - 
   - 
   - 
@@ -34,20 +37,19 @@ TagManager:
   - 
   - 
   - 
-  - 
-  - 
-  - PlayerDrop
-  - Platform
   m_SortingLayers:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Water
-    uniqueID: 2116099231
+  - name: BackGround
+    uniqueID: 419195267
     locked: 0
-  - name: Level
-    uniqueID: 2344118779
+  - name: Platform
+    uniqueID: 177898739
     locked: 0
-  - name: Front
-    uniqueID: 3405993979
+  - name: Player
+    uniqueID: 432623041
+    locked: 0
+  - name: Foreground
+    uniqueID: 810009919
     locked: 0
